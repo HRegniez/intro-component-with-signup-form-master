@@ -1,5 +1,6 @@
 $clr-prim1: hsl(0, 100%, 74%);
 $clr-prim2: hsl(154, 59%, 51%);
+$clr-prim3: hsl(154, 58%, 48%);
 
 $clr-accent: hsl(248, 32%, 49%);
 
@@ -39,6 +40,67 @@ body {
         p {
             padding: 0 1rem;
             line-height: 1.5rem;
+        }
+    }
+
+    &_button {
+        width: 100%;
+        padding: 1rem 4rem;
+        background-color: $clr-accent;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0px 0.5rem rgba(0, 0, 0, 0.144);
+        line-height: 1.5rem;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    form {
+        width: 100%;
+        padding: 1.5rem 1rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: 0px 0.5rem rgba(0, 0, 0, 0.144);
+
+
+
+
+        input {
+            margin-bottom: 1rem;
+            height: 3.5rem;
+            padding-left: 1rem;
+            width: 100%;
+            border: 1px solid $clr-neut2;
+            border-radius: 0.3rem;
+        }
+
+        button {
+            width: 100%;
+            text-transform: uppercase;
+            height: 4rem;
+            background-color: $clr-prim2;
+            border-radius: 0.5rem;
+            border: none;
+            box-shadow: 0px 0.2rem $clr-prim3;
+        }
+
+        p {
+            color: $clr-neut2;
+            margin-top: 1rem;
+            font-size: 0.7rem;
+            padding: 0 2rem;
+            line-height: 1.3rem;
+            text-align: center;
+
+            span {
+                font-weight: 800;
+                font-size: 0.7rem;
+                color: $clr-prim1;
+            }
         }
     }
 }
