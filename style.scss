@@ -1,0 +1,44 @@
+$clr-prim1: hsl(0, 100%, 74%);
+$clr-prim2: hsl(154, 59%, 51%);
+
+$clr-accent: hsl(248, 32%, 49%);
+
+$clr-neut1: hsl(249, 10%, 26%);
+$clr-neut2: hsl(246, 25%, 77%);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'poppins';
+}
+
+html {
+    background-color: $clr-prim1;
+    height: 100vh;
+    z-index: -10;
+}
+
+body {
+    background-image: url('./images/bg-intro-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    height: 100vh;
+    color: white;
+}
+
+.main {
+    padding: 4rem 1rem;
+
+    &_intro {
+        text-align: center;
+        margin-bottom: 2rem;
+
+        p {
+            padding: 0 1rem;
+            line-height: 1.5rem;
+        }
+    }
+}

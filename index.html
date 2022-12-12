@@ -9,6 +9,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="normalise.css">
+  <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -25,14 +31,14 @@
 
 <body>
 
-  <article>
+  <article class="main">
 
-    <div>
+    <div class="main_intro">
       <h1>Learn to code by watching others</h1>
       <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
         but understanding how developers think is invaluable. </p>
     </div>
-    <div>
+    <div class="main_form">
       <div>
         <span>Try it free 7 days</span> then $20/mo. thereafter
       </div>
@@ -41,7 +47,7 @@
         <input type="text" placeholder="Last Name ">
         <input type="email" placeholder="Email Address">
         <input type="password" placeholder="Password">
-        <button>
+        <button type="submit">
           Claim your free trial
         </button>
 
