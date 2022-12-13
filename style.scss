@@ -86,20 +86,58 @@ body {
             border-radius: 0.5rem;
             border: none;
             box-shadow: 0px 0.2rem $clr-prim3;
-        }
 
-        p {
-            color: $clr-neut2;
-            margin-top: 1rem;
-            font-size: 0.7rem;
-            padding: 0 2rem;
-            line-height: 1.3rem;
-            text-align: center;
+            &:hover {
+                cursor: pointer;
+            }
 
-            span {
-                font-weight: 800;
+            p {
+                color: $clr-neut2;
+                margin-top: 1rem;
                 font-size: 0.7rem;
-                color: $clr-prim1;
+                padding: 0 2rem;
+                line-height: 1.3rem;
+                text-align: center;
+
+                span {
+                    font-weight: 800;
+                    font-size: 0.7rem;
+                    color: $clr-prim1;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 750px) {
+    body {
+        background-image: url('./images/bg-intro-desktop.png');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main {
+        display: flex;
+        flex: 1;
+        margin: 0 8rem;
+        gap: 3rem;
+
+        &_intro {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                padding: 0;
+                letter-spacing: 1.1;
+                font-size: 0.9rem;
+                line-height: 1.6rem;
             }
         }
     }

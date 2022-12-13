@@ -70,7 +70,10 @@ body {
   border: none;
   box-shadow: 0px 0.2rem hsl(154deg, 58%, 48%);
 }
-.main form p {
+.main form button:hover {
+  cursor: pointer;
+}
+.main form button p {
   color: hsl(246deg, 25%, 77%);
   margin-top: 1rem;
   font-size: 0.7rem;
@@ -78,8 +81,38 @@ body {
   line-height: 1.3rem;
   text-align: center;
 }
-.main form p span {
+.main form button p span {
   font-weight: 800;
   font-size: 0.7rem;
   color: hsl(0deg, 100%, 74%);
+}
+
+@media screen and (min-width: 750px) {
+  body {
+    background-image: url("./images/bg-intro-desktop.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    display: flex;
+    flex: 1;
+    margin: 0 8rem;
+    gap: 3rem;
+  }
+  .main_intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  .main_intro h1 {
+    font-size: 3rem;
+  }
+  .main_intro p {
+    padding: 0;
+    letter-spacing: 1.1;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+  }
 }/*# sourceMappingURL=style.css.map */
