@@ -46,6 +46,9 @@ body {
 .main_button span {
   font-weight: 600;
 }
+.main_form {
+  width: 714px;
+}
 .main form {
   width: 100%;
   padding: 1.5rem 1rem;
@@ -54,7 +57,8 @@ body {
   box-shadow: 0px 0.5rem rgba(0, 0, 0, 0.144);
 }
 .main form input {
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   height: 3.5rem;
   padding-left: 1rem;
   width: 100%;
@@ -115,4 +119,23 @@ body {
     font-size: 0.9rem;
     line-height: 1.6rem;
   }
+}
+.error_active {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  color: hsl(0deg, 100%, 74%);
+}
+.error_active p {
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.error_active img {
+  position: absolute;
+  top: -47.5px;
+  right: 20px;
+}
+
+.error {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

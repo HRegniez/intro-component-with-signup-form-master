@@ -49,11 +49,43 @@
       </button>
 
       <form action="">
-        <input type="text" placeholder="First Name ">
-        <input type="text" placeholder="Last Name ">
-        <input type="email" placeholder="Email Address">
-        <input type="password" placeholder="Password">
-        <button type="submit">
+        <input id="first_name" type="text" placeholder="First Name ">
+        
+        <div id="first_name_error" class="error">
+
+          <img src="./images/icon-error.svg" alt="error">
+
+          <p>First Name cannot be empty</p>
+        </div>
+        
+        <input id="last_name" type="text" placeholder="Last Name ">
+
+        <div id="last_name_error" class="error">
+          
+          <img src="./images/icon-error.svg" alt="error">
+
+          <p>Last Name cannot be empty</p>
+        </div>
+
+        <input id="email" type="email" placeholder="Email Address">
+
+        <div id="email_error" class="error">
+          
+          <img src="./images/icon-error.svg" alt="error">
+
+          <p>Looks like this is not an email</p>
+        </div>
+
+        <input id="password" type="password" placeholder="Password">
+
+        <div id="password_error" class="error">
+          
+          <img src="./images/icon-error.svg" alt="error">
+
+          <p>Password cannot be empty</p>
+        </div>
+
+        <button id="submit" type="submit">
           Claim your free trial
         </button>
 
@@ -67,6 +99,8 @@
       </form>
     </div>
   </article>
+
+  <script src="./app.js"></script>
 </body>
 
 </html>

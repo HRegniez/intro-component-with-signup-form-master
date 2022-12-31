@@ -59,6 +59,10 @@ body {
         }
     }
 
+    &_form {
+        width: 714px;
+    }
+
     form {
         width: 100%;
         padding: 1.5rem 1rem;
@@ -66,11 +70,13 @@ body {
         border-radius: 0.5rem;
         box-shadow: 0px 0.5rem rgba(0, 0, 0, 0.144);
 
+    
 
 
 
         input {
-            margin-bottom: 1rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
             height: 3.5rem;
             padding-left: 1rem;
             width: 100%;
@@ -141,4 +147,27 @@ body {
             }
         }
     }
+}
+
+.error_active {
+    display: flex;
+    justify-content: flex-end;
+
+    position: relative;
+
+    color: $clr-prim1;
+
+    p {
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    img {
+        position: absolute;
+        top: -47.5px;
+        right: 20px;
+    }
+}
+.error {
+    display: none;
 }

@@ -14,7 +14,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## Overview
 
-Decided to do this challenge to keep improving my JavaScript.
+Decided to do this challenge to learn more about forms and how to handle them using JavaScript
 
 ### The challenge
 
@@ -48,7 +48,9 @@ Users should be able to:
 
 ### Continued development
 
+- button font color to change
 
+- see how to hande user input using JavaScript
 
 
 ## Author
