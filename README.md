@@ -1,6 +1,6 @@
 # **In Progress** Frontend Mentor - Intro component with sign up form solution
 
-This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -33,11 +33,11 @@ Users should be able to:
 
 - HTML stucture -done
 - SCSS to style
-  - mobile style -done
+  - mobile style
   - desktop style -done
-  - active states 
+  - active states -done
   - animations
-- JavaScript to check form
+- JavaScript to check form -done
 
 ### Built with
 
@@ -48,14 +48,10 @@ Users should be able to:
 
 ### Continued development
 
-- button font color to change
-
-- see how to hande user input using JavaScript
-
+- check mobile version after form width bug fix
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
